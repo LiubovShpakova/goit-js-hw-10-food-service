@@ -4,7 +4,7 @@ import './styles.css';
 
 const gallery = document.querySelector('ul.js-menu');
 const markup = menuItems(menu);
-gallery.insertAdjacentHTML('afterbegin', markup);
+gallery.insertAdjacentHTML('beforeend', markup);
 
 const Theme = {
   LIGHT: 'light-theme',
